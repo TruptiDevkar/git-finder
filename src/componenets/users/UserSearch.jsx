@@ -33,7 +33,7 @@ function UserSearch() {
                 onChange={handleChange}
               />
               <button
-                className="absolute top-0 right-0 rounded-l-none rounded-r-lg w-36 bg-[#045ac4] text-white font-semibold text-lg h-full"
+                className="absolute top-0 right-0 rounded-l-none rounded-r-lg w-36 bg-accent text-white font-semibold text-lg h-full"
                 type="submit"
               >
                 Search
@@ -45,7 +45,7 @@ function UserSearch() {
       {users.length > 0 && (
         <div className="mx-auto">
           <button
-            className="bg-purple-500 text-white rounded-md px-4 py-2 text-sm font-medium border-[1px] border-gray-200"
+            className="bg-error text-white rounded-md px-4 py-2 text-sm font-medium border-[1px] border-gray-200"
             onClick={clearUsers}
           >
             Clear Search
